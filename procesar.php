@@ -7,3 +7,4 @@ if(isset($_POST['name']) && isset($_POST['job'])){
 $usuario = [$name, $job];
 
 echo json_encode($usuario);
+
